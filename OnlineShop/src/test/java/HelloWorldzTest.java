@@ -19,13 +19,18 @@ public class HelloWorldzTest {
 	}
 
 	@Test
-	public void  TestMethod(){
-		System.out.println("testMethod()");
+	public void  TestMethod1(){
+		System.out.println("testMethod1()");
 	}
 	
 	@Test
-	public void  TestMethodNew(){
-		System.out.println("testMethod()");
+	public void  TestMethod2(){
+		System.out.println("testMethod2()");
+	}
+	
+	@Test
+	public void  TestMethod3(){
+		System.out.println("testMethod3()");
 	}
 	
 	@Before
