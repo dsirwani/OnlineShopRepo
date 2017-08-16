@@ -18,6 +18,7 @@ public class HelloWorldzTest {
 	@Test
 	public void  TestMethod1(){
 		System.out.println("testMethod1()");
+		System.out.println("");
 	}
 	
 	@Test
