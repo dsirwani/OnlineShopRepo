@@ -23,7 +23,7 @@ public class HelloWorldzTest {
 	@Test
 	public void  TestMethod4(){
 		System.out.println("testMethod4()");
-		System.out.println("");
+		System.out.println("nanlasn");
 	}
 	@Test
 	public void  TestMethod2(){
