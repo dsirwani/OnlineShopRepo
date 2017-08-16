@@ -8,6 +8,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>OnlineShop Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+    <jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
