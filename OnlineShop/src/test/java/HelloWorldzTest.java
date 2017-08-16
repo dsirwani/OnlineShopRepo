@@ -20,7 +20,11 @@ public class HelloWorldzTest {
 		System.out.println("testMethod1()");
 		System.out.println("");
 	}
-	
+	@Test
+	public void  TestMethod4(){
+		System.out.println("testMethod4()");
+		System.out.println("");
+	}
 	@Test
 	public void  TestMethod2(){
 		System.out.println("testMethod2()");
