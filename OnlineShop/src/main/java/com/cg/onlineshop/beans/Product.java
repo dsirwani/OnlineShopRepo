@@ -1,7 +1,7 @@
 package com.cg.onlineshop.beans;
 public class Product {
-	private int productCode,productPrice;
-	private String productDiscription , productName;
+	 int productCode,productPrice;
+	 String productDiscription , productName;
 	public Product() {}
 	public Product(int productCode, int productPrice, String productDiscription, String productName) {
 		super();
