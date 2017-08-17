@@ -9,6 +9,7 @@ public class HelloWorldzTest {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		System.out.println("setUpBeforeClass()");
+		
 	}
 
 	@AfterClass
