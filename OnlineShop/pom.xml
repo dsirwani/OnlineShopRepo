@@ -8,9 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>OnlineShop Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<!-- <properties>
-    <jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory>
-	</properties> -->
+	<!-- <properties> <jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory> 
+		</properties> -->
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -66,6 +65,11 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.0.2</version>
 			</plugin>
 		</plugins>
 		<finalName>OnlineShop</finalName>
